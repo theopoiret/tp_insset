@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../../../../themes/twentytwentythree-child/assets/webfonts/fa-regular-400.woff2")
+      format("woff2"),
+    url("../../../../themes/twentytwentythree-child/assets/webfonts/fa-regular-400.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../../../../themes/twentytwentythree-child/assets/webfonts/fa-solid-900.woff2")
+      format("woff2"),
+    url("../../../../themes/twentytwentythree-child/assets/webfonts/fa-solid-900.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "FontAwesomeBrands";
+  font-display: block;
+  font-weight: 400;
+  src: url("../../../../themes/twentytwentythree-child/assets/webfonts/fa-brands-400.woff2")
+      format("woff2"),
+    url("../../../../themes/twentytwentythree-child/assets/webfonts/fa-brands-400.ttf")
+      format("truetype");
+}
+
+.deleteButton {
+  border-color: red !important;
+}
+
+.deleteButton:before {
+  font-size: 1.3em;
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f1f8";
+  color: red;
+}
+
+.notice-info {
+  display: none;
+}
+
+.saveIcon:before {
+  font-style: normal;
+  font-size: 1em;
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f0c7";
+}
