@@ -1,5 +1,4 @@
 jQuery(document).ready(function (s) {
-  
 jQuery('#v_utilisateur').on('click', function(e){
   e.stopPropagation();
   e.preventDefault();
@@ -107,6 +106,25 @@ jQuery('#pays_valider').on('click', function(e){
       return false;
     }
   })
+})
+
+jQuery('.slct_pays').on('change', function(e){
+  e.stopPropagation();
+  e.preventDefault();
+
+  var verif_value = 0;
+
+  for(var boucle = 0 ; boucle < document.getElementsByClassName('slct_pays').length ; boucle++){
+
+      if( (document.getElementsByClassName('slct_pays')[boucle].value != "Rien") && (boucle == verif_value)){
+          document.getElementsByClassName('slct_pays')[boucle+1].hidden = false;
+          verif_value++;
+      }
+      else{
+          document.getElementsByClassName('slct_pays')[boucle+1].hidden = true;
+          document.getElementsByClassName('slct_pays')[boucle+1].value = "Rien";
+      }
+  }
 })
 
 jQuery('#resume_valider').on('click', function(e){

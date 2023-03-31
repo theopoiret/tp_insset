@@ -34,35 +34,35 @@ class tp_Insset_Shortcodes_pays
                     
                     <div>
                         <select class='slct_pays'>
-                            <option value='rien'>Select your first country</option>
+                            <option value='Rien'>Select your first country</option>
                             $lp
                         </select>
                     </div>
 
                     <div>
-                        <select class='slct_pays'>
-                            <option value='rien'>Select your second country</option>
+                        <select class='slct_pays' hidden>
+                            <option value='Rien'>Select your second country</option>
                             $lp
                         </select>
                     </div>
 
                     <div>
-                        <select class='slct_pays'>
-                            <option value='rien'>Select your third country</option>
+                        <select class='slct_pays' hidden>
+                            <option value='Rien'>Select your third country</option>
                             $lp
                         </select>
                     </div>
 
                     <div>
-                        <select class='slct_pays'>
-                            <option value='rien'>Select your fourth country</option>
+                        <select class='slct_pays' hidden>
+                            <option value='Rien'>Select your fourth country</option>
                             $lp
                         </select>
                     </div>
 
                     <div>
-                        <select class='slct_pays'>
-                            <option value='rien'>Select your fifth country</option>
+                        <select class='slct_pays' hidden>
+                            <option value='Rien'>Select your fifth country</option>
                             $lp
                         </select>
                     </div>
